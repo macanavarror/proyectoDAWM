@@ -4,7 +4,9 @@
 *.log
 *.pot
 *.pyc
-__pycache__
+*/*/*/__pycache__/
+*/*/*/migrations/
+
 db.sqlite3
 media
 
