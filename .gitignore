@@ -7,6 +7,8 @@
 */*/*/__pycache__/
 */*/*/migrations/
 
+frontend/node_modules/
+
 db.sqlite3
 media
 
