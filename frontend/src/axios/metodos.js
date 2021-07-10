@@ -49,3 +49,11 @@ export async function obtenerNoticia(id) {
     })
     return noticia
 }
+
+export async function enviarContacto(formulario) {
+    response = false;
+    await axios.post(config.URL+"enviar-contacto/",{formulario: formulario}).then((result) => {
+        response = result.data;
+    })
+    return reponse
+}

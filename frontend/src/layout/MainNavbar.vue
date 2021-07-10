@@ -18,6 +18,7 @@
           tag="a"
           style="margin-right: 30px;"
           class="nav-link"
+          v-intro="'Informacion general del sitio'"
         >
           <p>Inicio</p>
         </router-link>
@@ -28,6 +29,7 @@
           tag="a"
           style="margin-right: 30px;"
           class="nav-link"
+          v-intro="'Conoce mas sobre nuestro equipo de trabajo'"
         >
           <p>Equipo</p>
         </router-link>
@@ -38,6 +40,7 @@
           tag="a"
           style="margin-right: 30px;"
           class="nav-link"
+          v-intro="'Enterate de las ultimas noticias'"
         >
           <p>Noticias</p>
         </router-link>
@@ -48,6 +51,7 @@
           tag="a"
           style="margin-right: 30px;"
           class="nav-link"
+          v-intro="'Contactate para mas informacion'"
         >
           <p>Contacto</p>
         </router-link>

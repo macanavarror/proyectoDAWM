@@ -36,6 +36,9 @@ Vue.config.productionTip = false;
 
 Vue.use(NowUiKit);
 
+import VueIntro from 'vue-introjs';
+Vue.use(VueIntro);
+
 new Vue({
   router,
   render: h => h(App)

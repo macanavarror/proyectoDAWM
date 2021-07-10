@@ -59,7 +59,7 @@ export default new Router({
     {
       path: '/contacto',
       name: 'contacto',
-      components: { default: Profile, header: MainNavbar, footer: MainFooter },
+      components: { default: Contacto, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }

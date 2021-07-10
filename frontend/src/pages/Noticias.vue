@@ -19,7 +19,7 @@
       <div class="container">
         <div class="team">
           <div class="row">
-            <div class="col-sm-12 col-lg-12" style="display: flex; padding-left: 0px; margin-bottom: 10px;">
+            <div class="col-sm-12 col-lg-12" style="display: flex; padding-left: 0px; margin-bottom: 10px; margin-left: 15px;">
               <label style="padding-top: 8px; margin-right: 10px; margin-left: 0px;">Buscar: </label>
               <fg-input placeholder="Búsqueda por título o contenido..." v-model="busqueda"></fg-input>
               <n-button @click="buscarNoticias()" type="primary" style="margin: 0px 10px;" round icon>
@@ -28,7 +28,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="card" v-for="noticia in noticias" :key="noticia.id">
+            <div style="margin: 15px;" class="card" v-for="noticia in noticias" :key="noticia.id">
               <div style="width: 100%; height: fit-content; background-color: #f96332; padding: 15px 25px;">
                 <h3 style="color: white; font-weight: 600; text-align: left; margin: 0px;">{{noticia.titulo}}</h3>
               </div>

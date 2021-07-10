@@ -18,22 +18,8 @@
 
             <template slot="raw-content">
               <div class="card-footer text-center">
-                <a
-                  @click="login()"
-                  class="btn btn-primary btn-round btn-lg btn-block"
-                  >Iniciar Sesion</a
-                >
+                <a @click="login()" class="btn btn-primary btn-round btn-lg btn-block">Iniciar Sesion</a>
               </div>
-              <!-- <div class="pull-left">
-                <h6>
-                  <a href="#pablo" class="link footer-link">Create Account</a>
-                </h6>
-              </div>
-              <div class="pull-right">
-                <h6>
-                  <a href="#pablo" class="link footer-link">Need Help?</a>
-                </h6>
-              </div> -->
             </template>
           </card>
         </div>
