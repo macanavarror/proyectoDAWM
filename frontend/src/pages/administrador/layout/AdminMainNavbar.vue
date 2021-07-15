@@ -29,6 +29,15 @@
             <p>Administrar Noticias</p>
         </li>
       </router-link>
+      <a
+        class="nav-link"
+        style="cursor: pointer;"
+        @click="logout()"
+      >
+        <li class="nav-item">
+            <p>Cerrar Sesión</p>
+        </li>
+      </a>
     </template>
   </navbar>
 </template>
@@ -45,6 +54,12 @@ export default {
   components: {
     Navbar,
     [Popover.name]: Popover
+  },
+  methods:{
+    logout(){
+      localStorage.token = null
+      this.$router.push('/login')
+    }
   }
 };
 </script>

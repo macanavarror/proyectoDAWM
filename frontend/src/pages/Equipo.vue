@@ -130,4 +130,6 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+.rounded-circle.img-fluid.img-raised:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);transition:all .5s ease-in-out;}
+</style>

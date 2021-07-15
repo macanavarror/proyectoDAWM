@@ -27,6 +27,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
+import 'mdb-ui-kit/css/mdb.min.css';
+
 Vue.use(ElementUI);
 library.add(faSearch)
 

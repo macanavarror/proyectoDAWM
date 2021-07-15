@@ -6,7 +6,6 @@ export async function obtenerNoticias() {
     await axios.get(config.URL+"noticias/obtener/").then((result) => {
         noticias = result.data;
     })
-    console.log(noticias)
     return noticias
 }
 
