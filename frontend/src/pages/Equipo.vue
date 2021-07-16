@@ -105,7 +105,7 @@
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Joffre Hadid</h4>
+                <h4 class="title">Joffre Ramirez</h4>
                 <p class="category text-primary">Desarrollador Backend</p>
                 <p class="description">
                   You can write here details about one of your team members. You
