@@ -17,6 +17,7 @@ import AdminMainNavbar from './pages/administrador/layout/AdminMainNavbar.vue';
 import Dashboard from './pages/administrador/Dashboard.vue';
 import AdministrarNoticias from './pages/administrador/AdministrarNoticias.vue';
 import EditarNoticia from './pages/administrador/EditarNoticia.vue';
+import BuzonEntrada from './pages/administrador/BuzonEntrada.vue';
 
 Vue.use(Router);
 
@@ -98,8 +99,18 @@ const router = new Router({
       }
     },
     {
+      path: '/administrador/buzon',
+      name: 'buzon-entrada',
+      meta: { onlyAdmin: true },
+      components: { default: BuzonEntrada, header: AdminMainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
       path: '/administrador/noticias/editar/',
-      name: 'editar-noticia',
+      name: 'crear-noticia',
       meta: { onlyAdmin: true },
       components: { default: EditarNoticia, header: AdminMainNavbar, footer: MainFooter },
       props: {
@@ -130,7 +141,7 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
   if(to.meta.onlyAdmin) {
-    if(isLoggedIn()){
+    if(localStorage.token != 'null'){
       next()
     }else{
       next({

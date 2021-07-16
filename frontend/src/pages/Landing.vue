@@ -40,9 +40,6 @@
                   "Over the span of the satellite record, Arctic sea ice has
                   been declining significantly, while sea ice in the
                   Antarctichas increased very slightly"
-                  <br />
-                  <br />
-                  <small>-NOAA</small>
                 </p>
               </div>
               <!-- Second image on the left side of the article -->
@@ -96,7 +93,7 @@
                 <div class="columns">
                     <div class="column is-8 is-offset-2">
                         <div style="width: 100%;">
-                        <h2 class="title" style="width: fit-content; margin: auto; margin-bottom: 15px;">¿Necesitas ayuda?</h2>
+                        <h2 class="title" style="width: fit-content; margin: auto; margin-bottom: 25px;">¿Necesitas ayuda?</h2>
                         </div>
                         <horizontal-stepper 
                           :steps="demoSteps"
@@ -151,12 +148,12 @@ export default {
               icon: 'report_problem',
               name: 'second',
               title: 'Segundo Paso',
-              subtitle: 'Espera',
+              subtitle: 'Formulario',
               component: StepTwo,
           },
           {
               icon: 'report_problem',
-              name: 'second',
+              name: 'third',
               title: 'Tercer Paso',
               subtitle: 'Espera',
               component: StepThree,

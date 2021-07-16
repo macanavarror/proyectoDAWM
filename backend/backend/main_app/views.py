@@ -8,8 +8,8 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from main_app.models import Noticia
-from main_app.serializers import UserSerializer, GroupSerializer, NoticiaSerializer
+from main_app.models import Noticia, Mensaje
+from main_app.serializers import UserSerializer, GroupSerializer, NoticiaSerializer, MensajeSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -28,6 +28,26 @@ class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
     # permission_classes = [permissions.IsAuthenticated]
+
+class MensajeViewset(viewsets.ModelViewSet):
+    """
+    API endpoint that allows groups to be viewed or edited.
+    """
+    queryset = Mensaje.objects.all()
+    serializer_class = MensajeSerializer
+    # permission_classes = [permissions.IsAuthenticated]
+
+    @action(methods=['get'], url_path='obtener', detail=False)
+    def obtener_mensajes(self, request):
+        queryset = Mensaje.objects.all()
+        return Response(MensajeSerializer(queryset, many=True).data)
+
+    @action(methods=['post'], url_path='publicar', detail=False)
+    def publicar_mensaje(self, request):
+        formulario = request.data.get('formulario')
+        mensaje = Mensaje(nombre = formulario.get('nombre'), apellido = formulario.get('apellido'), pais = formulario.get('pais'), correo = formulario.get('correo'), detalle = formulario.get('detalle'))
+        mensaje.save()
+        return Response({'status': 'success'})
 
 class NoticiaViewSet(viewsets.ModelViewSet):
     """

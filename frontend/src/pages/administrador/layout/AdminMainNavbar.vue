@@ -29,6 +29,15 @@
             <p>Administrar Noticias</p>
         </li>
       </router-link>
+      <router-link
+        to="/administrador/buzon"
+        tag="a"
+        class="nav-link"
+      >
+        <li class="nav-item">
+            <p>Buzon de Entrada</p>
+        </li>
+      </router-link>
       <a
         class="nav-link"
         style="cursor: pointer;"

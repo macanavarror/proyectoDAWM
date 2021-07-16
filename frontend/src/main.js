@@ -41,6 +41,11 @@ Vue.use(NowUiKit);
 import VueIntro from 'vue-introjs';
 Vue.use(VueIntro);
 
+import Donut from 'vue-css-donut-chart';
+import 'vue-css-donut-chart/dist/vcdonut.css';
+
+Vue.use(Donut);
+
 new Vue({
   router,
   render: h => h(App)
