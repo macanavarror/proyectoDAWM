@@ -20,10 +20,12 @@
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">¿Quienes Somos?</h2>
             <h5 class="description">
-              According to the National Oceanic and Atmospheric Administration,
-              Ted, Scambos, NSIDClead scentist, puts the potentially record low
-              maximum sea ice extent tihs year down to low ice extent in the
-              Pacific and a late drop in ice extent in the Barents Sea.
+              La Fundación Patitas Amor, es una fundación que ayuda a los animales 
+              que estén en la calle o hayan sido abandonados, para darles protección y 
+              cuidados hasta que llegue una familia. Fue fundada en Guayaquil, en junio 
+              de 2021. Estamos ubicados en un albergue vía a Durán, puedes participar 
+              como voluntario y pasar un tiempo con los animales o donar para que ellos 
+              tengan los mejores cuidados. 
             </h5>
           </div>
         </div>
@@ -37,9 +39,7 @@
               >
                 <!-- First image on the left side -->
                 <p class="blockquote blockquote-primary">
-                  "Over the span of the satellite record, Arctic sea ice has
-                  been declining significantly, while sea ice in the
-                  Antarctichas increased very slightly"
+                  "Los animales son sensibles, inteligentes, divertidos y entretenidos. Debemos cuidarlos al igual que hacemos con los niños", Michael Morpurgo. "
                 </p>
               </div>
               <!-- Second image on the left side of the article -->
