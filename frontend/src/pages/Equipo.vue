@@ -36,15 +36,14 @@
                 <h4 class="title">Kevin Cevallos</h4>
                 <p class="category text-primary">Desarrollador Frontend</p>
                 <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
+                  Estudiante de ingeniería en Computación de la Escuela Superior Politécnica del Litoral. 
+                  Nacido en Jipijapa, Ecuador. He trabajado 
+                  en diferentes proyectos de desarrollo de aplicaciones en los lenguajes Python, Java y JavaScript. 
                 </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="https://twitter.com/KevinCevallos95" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
                 ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                <a href="https://www.linkedin.com/in/kevincevallospilay/" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-linkedin"></i
                 ></a>
               </div>
@@ -59,10 +58,10 @@
                 <h4 class="title">Camila Navarro</h4>
                 <p class="category text-primary">Desarrollador Backend</p>
                 <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
+                  Estudiante de la carrera de Ingeniería en Computación en la Escuela Superior Politécnica del Litoral. 
+                  Nacida el 7 de agosto de 1997 en la ciudad de Guayaquil, Ecuador. Correo de contacto: macanava@espol.edu.ec.
+                  Aspirando a desarrollar habilidades y adquirir conocimientos de todas las ramas de la computación. Esperando enfrentar desafíos que forjen mi experiencia
+                   e incrementen mi valor profesional. Tengo conocimiento en Python, Java, PHP, MongoDB. 
                 </p>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
@@ -79,13 +78,13 @@
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Adriana Jenner</h4>
+                <h4 class="title">Adriana Guilindro</h4>
                 <p class="category text-primary">Desarrollador Frontend</p>
                 <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
+                  Estudiante de Ciencias Computacionales en la Escuela Superior Politécnica del Litoral,
+                  de nacionalidad guayaquileña y con 21 años. No tengo experiencia en el ámbito laboral
+                  pero he participado en actividades relacionada con programación,
+                  siendo el Pyweekend de 2019 uno de los eventos más importantes.
                 </p>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-google-plus"></i
@@ -108,10 +107,8 @@
                 <h4 class="title">Joffre Ramirez</h4>
                 <p class="category text-primary">Desarrollador Backend</p>
                 <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
+                  Estudiante universitario de la Escuela Superior Politécnica del litoral, siguiendo la carrera de ingeniería de software. Guayaquileño con 21 años de edad. No tengo mucha experiencia laboral, pero si he participado en proyectos con Java, Python y Javascript.
+                   Anhelo ser un buen programador y poder aplicar mis habilidades en un ámbito empresarial. 
                 </p>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-twitter"></i

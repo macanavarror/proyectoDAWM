@@ -8,7 +8,7 @@
   >
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        DAW
+        DAWM
       </router-link>
     </template>
     <template slot="navbar-menu">

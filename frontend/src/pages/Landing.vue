@@ -35,7 +35,7 @@
             <div class="col-md-6">
               <div
                 class="image-container image-left"
-                style="background-image: url('img/login.jpg')"
+                style="background-image: url('img/imagen1.jpg')"
               >
                 <!-- First image on the left side -->
                 <p class="blockquote blockquote-primary">
@@ -45,14 +45,14 @@
               <!-- Second image on the left side of the article -->
               <div
                 class="image-container"
-                style="background-image: url('img/bg3.jpg')"
+                style="background-image: url('img/imagen2.jpg')"
               ></div>
             </div>
             <div class="col-md-5">
               <!-- First image on the right side, above the article -->
               <div
                 class="image-container image-right"
-                style="background-image: url('img/fundacionImagen-02.png')"
+                style="background-image: url('img/logoImagen-02.jpg')"
               ></div>
               <h3>
                 Proteger y cuida a los animales
