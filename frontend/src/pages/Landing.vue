@@ -52,37 +52,23 @@
               <!-- First image on the right side, above the article -->
               <div
                 class="image-container image-right"
-                style="background-image: url('img/bg1.jpg')"
+                style="background-image: url('img/fundacionImagen-02.png')"
               ></div>
               <h3>
-                So what does the new record for the lowest level of winter ice
-                actually mean
+                Proteger y cuida a los animales
               </h3>
               <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
+                Actualmente esta fundación surgió antes la necesidad de tener un lugar y personas
+                que cuiden y velen por el bienestar de nuestros amigos peludos en Guayaquil. 
               </p>
               <p>
-                For a start, it does not automatically follow that a record
-                amount of ice will melt this summer. More important for
-                determining the size of the annual thaw is the state of the
-                weather as the midnight sun approaches and temperatures rise.
-                But over the more than 30 years of satellite records, scientists
-                have observed a clear pattern of decline, decade-by-decade.
+                Nuestra instalación cuenta con un límite de capacidad para albergar a los animales,
+                ya que estos son abandonados constantemente y su población crece y crece porque no hay un
+                control de reproducción.
               </p>
               <p>
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens with climate change. Even if the Arctic continues to be
-                one of the fastest-warming regions of the world, it will always
-                be plunged into bitterly cold polar dark every winter. And
-                year-by-year, for all kinds of natural reasons, there’s huge
-                variety of the state of the ice.
+                Nuestro objetivo es proteger a esos amigos abandonados, cuidarlos hasta que una familia le de el cariño
+                que se merecen, mientras se espera hay voluntarios que ayudan en el cuidados de nuestros amigos peludos.
               </p>
             </div>
           </div>
