@@ -21,49 +21,20 @@
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto mb-5 text-center">
               <h5 class="description">
-                According to the National Oceanic and Atmospheric Administration,
-                Ted, Scambos, NSIDClead scentist, puts the potentially record low
-                maximum sea ice extent tihs year down to low ice extent in the
-                Pacific and a late drop in ice extent in the Barents Sea.
+                Presentamos al equipo de desarrollo de la página web de la Fundación Patitas Amor, el equipo Akatsuki. Algunas veces debes salir herido en DAWM para saber, caer para crecer, perder para luego ganar. Porque las lecciones más grandes de la vida se aprenden a través del dolor.  
               </h5>
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="team-player">
                 <img
-                  src="img/avatar.jpg"
+                  src="img/kevin.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Romina Hadid</h4>
-                <p class="category text-primary">Model</p>
-                <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
-                </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                  ><i class="fab fa-facebook-square"></i
-                ></a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="team-player">
-                <img
-                  src="img/ryan.jpg"
-                  alt="Thumbnail Image"
-                  class="rounded-circle img-fluid img-raised"
-                />
-                <h4 class="title">Ryan Tompson</h4>
-                <p class="category text-primary">Designer</p>
+                <h4 class="title">Kevin Cevallos</h4>
+                <p class="category text-primary">Desarrollador Frontend</p>
                 <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
@@ -78,15 +49,38 @@
                 ></a>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="team-player">
                 <img
-                  src="img/eva.jpg"
+                  src="img/camila.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Eva Jenner</h4>
-                <p class="category text-primary">Fashion</p>
+                <h4 class="title">Camila Navarro</h4>
+                <p class="category text-primary">Desarrollador Backend</p>
+                <p class="description">
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#">links</a> for people to be able to follow
+                  them outside the site.
+                </p>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <img
+                  src="img/adriana.jpg"
+                  alt="Thumbnail Image"
+                  class="rounded-circle img-fluid img-raised"
+                />
+                <h4 class="title">Adriana Jenner</h4>
+                <p class="category text-primary">Desarrollador Frontend</p>
                 <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
@@ -101,6 +95,32 @@
                 ></a>
                 <a href="#pablo" class="btn btn-primary btn-icon btn-round"
                   ><i class="fab fa-twitter"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="team-player">
+                <img
+                  src="img/joffre.jpg"
+                  alt="Thumbnail Image"
+                  class="rounded-circle img-fluid img-raised"
+                />
+                <h4 class="title">Joffre Hadid</h4>
+                <p class="category text-primary">Desarrollador Backend</p>
+                <p class="description">
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#">links</a> for people to be able to follow
+                  them outside the site.
+                </p>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
+                  ><i class="fab fa-facebook-square"></i
                 ></a>
               </div>
             </div>
