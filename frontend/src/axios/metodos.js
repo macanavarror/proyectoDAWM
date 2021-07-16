@@ -6,7 +6,14 @@ export async function obtenerNoticias() {
     await axios.get(config.URL+"noticias/obtener/").then((result) => {
         noticias = result.data;
     })
-    console.log(noticias)
+    return noticias
+}
+
+export async function obtenerMensajes() {
+    var noticias = null
+    await axios.get(config.URL+"mensajes/obtener/").then((result) => {
+        noticias = result.data;
+    })
     return noticias
 }
 
@@ -51,9 +58,9 @@ export async function obtenerNoticia(id) {
 }
 
 export async function enviarContacto(formulario) {
-    response = false;
-    await axios.post(config.URL+"enviar-contacto/",{formulario: formulario}).then((result) => {
+    var response = false;
+    await axios.post(config.URL+"mensajes/publicar/",{formulario: formulario}).then((result) => {
         response = result.data;
     })
-    return reponse
+    return response
 }

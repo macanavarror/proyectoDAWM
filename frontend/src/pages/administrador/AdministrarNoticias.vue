@@ -1,5 +1,5 @@
 <template>
-  <div>``
+  <div>
     <div id="team" class="section section-team text-center">
       <div class="container">
         <div class="team">
@@ -11,7 +11,7 @@
           </div>
           <div class="row">
             <div class="card" v-for="noticia in noticias" :key="noticia.id">
-              <div style="width: 100%; height: fit-content; background-color: #f96332; padding: 15px 25px; display: flex;">
+              <div class="bg-primary" style="width: 100%; height: fit-content; padding: 15px 25px; display: flex;">
                 <h3 style="color: white; font-weight: 600; text-align: left; margin: 0px; width: inherit;">{{noticia.titulo}}</h3>
                 <div style="display: flex;" class="controls-container">
                   <i style="cursor: pointer;" class="fas fa-edit" @click="editarNoticia(noticia.id)"></i>
@@ -35,7 +35,7 @@
               style="margin: auto;"
               class="nav-link"
             >
-              <el-button style="background-color: rgb(249, 99, 50); border-color: rgb(249, 99, 50);margin: auto;" type="primary" round><i class="fas fa-plus" style="margin-right: 5px;"></i> Nueva Noticia</el-button>
+              <el-button class="bg-primary" style="border-color: white;margin: auto;" type="primary" round><i class="fas fa-plus" style="margin-right: 5px;"></i> Nueva Noticia</el-button>
             </router-link>
           </div>
         </div>

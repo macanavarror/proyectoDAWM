@@ -122,10 +122,8 @@ export default {
   },
   methods:{
     async enviar(){
-      await enviarContacto(this.loginForm.username, this.loginForm.password).then(res => {
-        localStorage.token = res.token;
-        window.location.href = '/';
-
+      await enviarContacto(this.formulario).then(res => {
+        window.location.reload();
       })
     }
   }

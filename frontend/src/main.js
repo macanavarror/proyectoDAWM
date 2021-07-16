@@ -27,6 +27,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
+import 'mdb-ui-kit/css/mdb.min.css';
+
 Vue.use(ElementUI);
 library.add(faSearch)
 
@@ -38,6 +40,11 @@ Vue.use(NowUiKit);
 
 import VueIntro from 'vue-introjs';
 Vue.use(VueIntro);
+
+import Donut from 'vue-css-donut-chart';
+import 'vue-css-donut-chart/dist/vcdonut.css';
+
+Vue.use(Donut);
 
 new Vue({
   router,

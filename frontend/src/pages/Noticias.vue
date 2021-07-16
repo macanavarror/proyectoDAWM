@@ -29,7 +29,7 @@
           </div>
           <div class="row">
             <div style="margin: 15px;" class="card" v-for="noticia in noticias" :key="noticia.id">
-              <div style="width: 100%; height: fit-content; background-color: #f96332; padding: 15px 25px;">
+              <div class="bg-primary" style="width: 100%; height: fit-content; padding: 15px 25px;">
                 <h3 style="color: white; font-weight: 600; text-align: left; margin: 0px;">{{noticia.titulo}}</h3>
               </div>
               <div class="row" style="margin: 0px;">

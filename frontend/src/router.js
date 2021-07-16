@@ -10,14 +10,18 @@ import Profile from './pages/Profile.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
 
+
+import { isLoggedIn } from './utils/auth'
+
 import AdminMainNavbar from './pages/administrador/layout/AdminMainNavbar.vue';
 import Dashboard from './pages/administrador/Dashboard.vue';
 import AdministrarNoticias from './pages/administrador/AdministrarNoticias.vue';
 import EditarNoticia from './pages/administrador/EditarNoticia.vue';
+import BuzonEntrada from './pages/administrador/BuzonEntrada.vue';
 
 Vue.use(Router);
 
-export default new Router({
+const router = new Router({
   mode: 'history',
   linkExactActiveClass: 'active',
   routes: [
@@ -78,6 +82,7 @@ export default new Router({
       path: '/administrador',
       name: 'administrador',
       components: { default: Dashboard, header: AdminMainNavbar, footer: MainFooter },
+      meta: { onlyAdmin: true },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
@@ -86,6 +91,7 @@ export default new Router({
     {
       path: '/administrador/noticias',
       name: 'administrar-noticias',
+      meta: { onlyAdmin: true },
       components: { default: AdministrarNoticias, header: AdminMainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
@@ -93,8 +99,19 @@ export default new Router({
       }
     },
     {
+      path: '/administrador/buzon',
+      name: 'buzon-entrada',
+      meta: { onlyAdmin: true },
+      components: { default: BuzonEntrada, header: AdminMainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
       path: '/administrador/noticias/editar/',
-      name: 'editar-noticia',
+      name: 'crear-noticia',
+      meta: { onlyAdmin: true },
       components: { default: EditarNoticia, header: AdminMainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
@@ -103,6 +120,7 @@ export default new Router({
     },
     {
       path: '/administrador/noticias/editar/:id',
+      meta: { onlyAdmin: true },
       name: 'editar-noticia',
       components: { default: EditarNoticia, header: AdminMainNavbar, footer: MainFooter },
       props: {
@@ -119,3 +137,21 @@ export default new Router({
     }
   }
 });
+
+
+router.beforeEach((to, from, next) => {
+  if(to.meta.onlyAdmin) {
+    if(localStorage.token != 'null'){
+      next()
+    }else{
+      next({
+        path: '/login',
+        query: { redirect: to.fullPath }
+      })
+    }
+  } else {
+    next()
+  }  
+})
+
+export default router

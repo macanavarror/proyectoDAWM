@@ -15,6 +15,7 @@
     </div>
     <div id="about" class="section section-about-us">
       <div class="container">
+        
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">¿Quienes Somos?</h2>
@@ -39,9 +40,6 @@
                   "Over the span of the satellite record, Arctic sea ice has
                   been declining significantly, while sea ice in the
                   Antarctichas increased very slightly"
-                  <br />
-                  <br />
-                  <small>-NOAA</small>
                 </p>
               </div>
               <!-- Second image on the left side of the article -->
@@ -89,18 +87,45 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-8 is-offset-2">
+                        <div style="width: 100%;">
+                        <h2 class="title" style="width: fit-content; margin: auto; margin-bottom: 25px;">¿Necesitas ayuda?</h2>
+                        </div>
+                        <horizontal-stepper 
+                          :steps="demoSteps"
+                          :canContinue="canContinue"
+                        >                     
+                        </horizontal-stepper>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
       </div>
     </div>
   </div>
 </template>
 <script>
 import { Button, FormGroupInput } from '@/components';
+
+import HorizontalStepper from 'vue-stepper';
+
+// This components will have the content for each stepper step.
+import StepOne from './steps/StepOne.vue';
+import StepTwo from './steps/StepTwo.vue';
+import StepThree from './steps/StepThree.vue';
+
 export default {
   name: 'landing',
   bodyClass: 'landing-page',
   components: {
     [Button.name]: Button,
-    [FormGroupInput.name]: FormGroupInput
+    [FormGroupInput.name]: FormGroupInput,
+    HorizontalStepper
   },
   data() {
     return {
@@ -108,14 +133,51 @@ export default {
         firstName: '',
         email: '',
         message: ''
-      }
+      },
+      canContinue: true,
+      demoSteps: [
+          {
+              icon: 'mail',
+              name: 'first',
+              title: 'Primer Paso',
+              subtitle: 'Contacto',
+              component: StepOne,
+
+          },
+          {
+              icon: 'report_problem',
+              name: 'second',
+              title: 'Segundo Paso',
+              subtitle: 'Formulario',
+              component: StepTwo,
+          },
+          {
+              icon: 'report_problem',
+              name: 'third',
+              title: 'Tercer Paso',
+              subtitle: 'Espera',
+              component: StepThree,
+          }
+      ]
     };
   },
   mounted(){
     this.$intro().start(); // start the guide
     // this.$intro().showHints(); // show hints
+  },
+
+  methods: {
+    // Executed when @stepper-finished event is triggered
+    alert(payload) {
+        alert('end')
+    }
   }
 };
 
 </script>
-<style></style>
+<style>
+.blockquote.blockquote-primary {
+    border-color: #1266f1 !important;
+    color: #1266f1 !important;
+}
+</style>

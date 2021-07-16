@@ -5,7 +5,7 @@ class Noticia(models.Model):
     contenido = models.CharField(max_length=2000)
     imagen = models.CharField(max_length=500)
 
-class Contacto(models.Model):
+class Mensaje(models.Model):
     nombre = models.CharField(max_length=300)
     apellido = models.CharField(max_length=300)
     pais = models.CharField(max_length=100)

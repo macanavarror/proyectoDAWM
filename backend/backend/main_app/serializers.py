@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 
-from main_app.models import Noticia
+from main_app.models import Noticia, Mensaje
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -18,3 +18,8 @@ class NoticiaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Noticia
         fields = ['id', 'titulo', 'contenido', 'imagen']
+
+class MensajeSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Mensaje
+        fields = ['id', 'nombre', 'apellido', 'pais', 'correo', 'detalle']
